@@ -1,6 +1,12 @@
+import Cabecalho from "components/Cabecalho";
+import Rodape from "components/Rodape";
+
 const Inicio = () => {
     return (
-        <h1>Olá mundo! Estou numa página!</h1>
+        <>
+            <Cabecalho />
+            <Rodape />
+        </>
     )
 }
 

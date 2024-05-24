@@ -3,7 +3,7 @@ import logo from './logo.png';
 import styles from './Cabecalho.module.css';
 import CabecalhoLink from "components/CabecalhoLink";
 
-const Header = () => {
+const Cabecalho = () => {
     return (
         <header className={styles.cabecalho}>
             <Link to="./">
@@ -21,4 +21,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Cabecalho;
